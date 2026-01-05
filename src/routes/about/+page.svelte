@@ -10,5 +10,7 @@
 
 <div class="text-column">
 	<h1>About this app</h1>
-	<p>Demonstrates an issue where <code>&lt;media-theme&gt;</code> controls work on full page load but break on client-side navigation on Safari Desktop when other HTML is present than the player.</p>	<Player />
+	<p>Demonstrates an issue where <code>&lt;media-theme&gt;</code> controls work on client-side navigation on all browsers except on Safari Desktop when other HTML is present than the player component.</p>
+	<p><strong>Also note:</strong> <code>&lt;media-theme&gt;</code> do not init on full page load </p>
+	<Player />
 </div>
